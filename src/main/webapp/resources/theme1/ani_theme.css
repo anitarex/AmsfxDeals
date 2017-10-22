@@ -1,0 +1,157 @@
+
+.form-style-1 h1 {
+    text-align: Left;
+    color: Green;
+  font:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style-1 h2 {
+    text-align: left;
+    color: darkcyan;
+     font:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     
+}
+
+.form-style-2 p {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 10px 5px 5px 5px;
+    font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+      text-align: left;
+}
+
+.form-style-2 label {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 10px 5px 5px 5px;
+    font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+      text-align: left;
+         font-weight: bold;
+}
+.form-style-2 table, th, td, tr {
+   border:1px solid #BEBEBE;
+}
+.form-style-1 table {
+    border-collapse: collapse;
+    border:1px solid #BEBEBE;
+}
+.form-style-1 table, th, td {
+   
+}
+.form-style-1 label{
+    margin:10px auto;
+    padding:0px 5px 5px 5px;
+    display:block;
+    font-weight: bold;
+      text-align: left;
+      font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+}
+ .form-style-1 p{
+    margin:10px auto;
+    max-width: 400px;
+    padding: 5px 5px 5px 5px;
+    font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: blue;
+      text-align: left;
+}
+ .form-style-1li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+
+
+.form-style-1 input[type=file]
+{
+	box-sizing: border-box;
+  
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+   
+    outline: none;  
+    width: 300px;
+    cursor: pointer;
+} 
+.form-style-1 input[type=file]:focus
+{
+	
+    cursor: pointer;
+    
+    box-sizing: border-box;
+  
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+   
+    outline: none;  
+    width: 300px;
+	
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+  
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+   
+    outline: none;  
+    width: 300px;
+}
+
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+   
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+    width: 300px;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 50%;
+}
+.form-style-1 .field-select{
+    width: 50%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+ 
+}
+.form-style-1 .required{
+    color:red;
+}
